@@ -10,10 +10,13 @@ $(document).ready(function () {
     alert("El correo fue enviado correctamente...");
   });
 
-  $(".titulo-rojo").on("dblclick", function () {
-    $(this).css("color", "red");
+  $(document).ready(function () {
+    // Cuando se hace clic en cualquier elemento con la clase .titulo-rojo
+    $(".titulo-rojo").on("click", function () {
+      // Cambiar el color del texto a rojo
+      $(this).css("color", "red");
+    });
   });
-
   $("#titulo-1").click(function () {
     $("#img-1").toggle();
   });
