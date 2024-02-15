@@ -1,0 +1,119 @@
+#ricomidanavbar {
+  font-size: 35px;
+  font-family: "Lobster", cursive;
+  margin-bottom: 7px;
+}
+
+.imgpizza {
+  margin-top: 70px;
+}
+
+.tarjeta-top {
+  height: 210px;
+}
+
+.card {
+  height: 400px;
+}
+
+.empezar {
+  width: 200px;
+}
+
+#ricoletter {
+  font-family: "Lobster", cursive;
+}
+
+.container {
+  width: 100%;
+}
+
+.buttonempezar {
+  color: white;
+  background-color: black;
+  padding-left: 90px;
+  padding-right: 90px;
+  width: 233px !important;
+  height: 40px;
+}
+
+footer {
+  font-family: "Lobster", cursive;
+}
+
+.newsletter {
+  font-family: "Lobster", cursive "Cabin", sans-serif;
+  height: 435px;
+}
+
+@media only screen and (min-width: 577px) {
+  #botontext {
+    text-align: left;
+  }
+
+  .titulopizza {
+    margin-top: 120px;
+  }
+
+  .newsletter {
+    font-family: "Lobster", cursive "Cabin", sans-serif;
+    height: 435px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #botontext {
+    text-align: center;
+  }
+
+  .titulopizza {
+    margin-top: 25px;
+  }
+
+  .receta2-preparación {
+    margin-top: 25px;
+  }
+
+  .rowreceta1 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .rowcard {
+    margin-left: 0px;
+    margin-right: -10px;
+  }
+
+  .newsletter {
+    font-family: "Lobster", cursive "Cabin", sans-serif;
+    height: 435px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-indicators {
+  position: static;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #373a3c;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+h3 {
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+}
