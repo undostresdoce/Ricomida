@@ -11,7 +11,7 @@ $(document).ready(function () {
   });
 
   $(".titulo-rojo").on("dblclick", function () {
-    $(".titulo-rojo").css("color", "red");
+    $(this).css("color", "red");
   });
 
   $("#titulo-1").click(function () {
